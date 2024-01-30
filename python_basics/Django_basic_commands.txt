@@ -1,0 +1,6 @@
+To start/create a django project: django-admin startproject <project_name>
+To start/create a django app: go into project folder and run command "python manage.py startapp <app_name>"
+To apply Django models migrations locally, perform command: python manage.py makemigrations
+To apply Django models migrations to real database, perform command: python manage.py migrate
+To login to Django admin, you need to create super user: python manage.py createsuperuser
+To start the Django server: python manage.py runserver

@@ -1,0 +1,38 @@
+# Default functions already available in Python
+# Following are the Specific functions for different Data Types
+# string (lower, upper, capitalize, count, find, format, join, split, strip)
+# lists (append, extend, insert, pop, index, sort, remove, count, sum, len, max, min)
+# dictionaries (items, keys, values, update, get)
+
+# if else
+
+# for/while
+
+# functions (iterators, decorators, generators, add, sum, len)
+
+# class
+
+# OOPS
+
+1) comments, variables, operators, type casting
+2) all functionalities for the Data types (str, int, float, list, tuple, range, dict, set, bool, None)
+3) functions, Lambdas
+4) iterators (If else, for, while loops)
+5) generators
+6) decorators
+7) classes
+8) objects
+9) oops (Abstraction, Polymorphism, encapsulation, inheritances)
+10) types of inheritances python supports (MRO)
+11) method overloading vs overriding
+12) duck typing
+13) monkey patching
+14) modules vs packages (Imports)
+15) file handling (optional)
+16) exception handling (try except)
+17) scope (Globals vs local variables)
+18) Multiple Threading vs parallel/multi processing (GIL)
+19) instance vs static vs class methods
+20) init vs self vs super keyword
+21) List & dict comprehensions
+22) User Input and String formatting 
