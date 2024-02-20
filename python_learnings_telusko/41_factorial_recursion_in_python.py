@@ -7,3 +7,10 @@ def fact(n):
     return n* fact (n-1)
 result = fact(5)
 print(result)
+
+def fact(a,b):
+        c = a+b
+        return c
+result = fact(5,24)
+print(result)
+
