@@ -23,3 +23,19 @@ def div(a, b):
 ## method-2 using "@". It should be applied on the function where we need to apply decorator.
 out = div(5,10)
 print(out)
+#####################
+# How to write decorators in python
+def decorator_func(func):
+    def inner():
+        func()
+        print('Hey how are you doing')
+        print('preeti')
+    return inner       
+
+
+def main():
+    print("Hi")
+main = decorator_func(main)  
+main() 
+
+

@@ -41,4 +41,4 @@ def upload_file_obj(file_name, bucket, object_name=None):
         return False
     return True
 
-print(upload_file_obj("copenhagen-denmark.jpg", s3_bucket))
+print(upload_file_obj("dummy.txt", s3_bucket))
