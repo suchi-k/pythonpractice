@@ -19,6 +19,22 @@ def format_op(ip):
 
 print(format_op("aaaaabbbbbccccddd"))
 
+'''what is garabage collections 
+what is decorators
+what is oops
+what is polymoprism
+what is abstract class
+what is put and patch
+what is sub_query
+what is r+ and w+
+what is forloop and while loop
+what is break and continue
+we can write primenumbers in code 
+how to write decorators
+what is left join'''
+
+
+
 def format_op(ip):
     """ one-liner code using in-built Counter function """
     return ''.join([str(val) + key for key, val in Counter(ip).items()])
@@ -49,7 +65,7 @@ op = 5 # highest number of times character repeated
 def find_highest_repeat_char(ip):
     counter = 1
     ans = 1
-    for i in range(len(ip) - 1):
+    for i in range(len(ip) - 1): 
         if ip[i] == ip[i+1]:
             # increment the counter since characters sitting beside are same
             counter += 1
@@ -63,6 +79,15 @@ def find_highest_repeat_char(ip):
     return ans
             
 print(find_highest_repeat_char("aaaaabbbbbccccdddddddd"))
+# how to find highest numbers in the list 
+list = [1,2,3,1,2,3,1,2,1]
+
+current_max_number = list[0]
+for number in list:
+    if number>current_max_number:
+        current_max_number = number
+
+print (current_max_number)
 
 """ 
 Question:3
@@ -213,3 +238,27 @@ Output: "s'teL ekat edoCteeL tsetnoc"
 class Solution:
     def reverseWords(self, s: str) -> str:
         return ' '.join([i[::-1] for i in s.split()])
+
+\
+'''interview questions
+
+
+what is garabage collections 
+what is decorators
+what is oops
+what is polymoprism
+what is abstract class
+what is put and patch
+what is sub_query
+what is r+ and w+
+what is forloop and while loop
+what is break and continue
+we can write primenumbers in code 
+how to write decorators
+what is left join'''
+
+
+246A) Garbage collection, an automatic memory management technique, is used by programming languages to deallocate memory that is no longer required by the program. 
+253A) r+ mode opens the file if it exists, while w+ mode also opens the file, but it deletes all the content present in the file
+252A) A subquery is a query that is nested inside a SELECT , INSERT , UPDATE , or DELETE statement, or inside another subquery.
+255A) Break statement stops the entire process of the loop. Continue statement only stops the current iteration of the loop.
